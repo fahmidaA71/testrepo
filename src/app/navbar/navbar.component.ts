@@ -14,6 +14,7 @@ export class NavbarComponent implements OnInit {
     { name: 'home', route: '/home'},
     { name: 'about', route: '/about' },
     { name: 'contact', route: '/contact' },
+    { name: 'latest', route: '/latest' },
    ];
 
   isCollapsed = true;

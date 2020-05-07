@@ -1,9 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  template: `
-    <h1>inline templates work too</h1>
-  `,
+  templateUrl: `./latest.component.html`,
   styles: [`
         h1 {
       font-weight: bold;
@@ -12,6 +10,13 @@ import { Component, OnInit } from '@angular/core';
   ]
 })
 export class LatestComponent implements OnInit {
+
+  posts = [
+    { title: 'Post 1' },
+    { title: 'Post 2' },
+    { title: 'Post 3' }
+  ];
+
 
   constructor() { }
 

@@ -2,11 +2,15 @@
   <a class="navbar-brand" href="#">Navbar</a>
 
   <ul style="list-style-type: none; color: white; display: inline-flex; padding: 5px;">
+
     <li role="menuitem" *ngFor="let nav of navs">
+
       <a style="color:white;" class="dropdown-item" routerLink="{{nav.route}}">
         {{nav.name}}
       </a>
+
     </li>
+
   </ul>
 
 </nav>

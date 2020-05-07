@@ -13,6 +13,7 @@ import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { CardsComponent } from './cards/cards.component';
 import { TabsModule } from 'ngx-bootstrap/tabs';
+import { LatestComponent } from './latest/latest.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { TabsModule } from 'ngx-bootstrap/tabs';
     NavbarComponent,
     HomepageComponent,
     AboutComponent,
-    CardsComponent
+    CardsComponent,
+    LatestComponent
   ],
   imports: [
     BrowserModule,
